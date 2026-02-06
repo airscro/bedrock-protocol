@@ -1,4 +1,4 @@
-,const JWT = require('jsonwebtoken')
+const JWT = require('jsonwebtoken')
 const { nextUUID } = require('../datatypes/util')
 const { PUBLIC_KEY } = require('./constants')
 const algorithm = 'ES384'
